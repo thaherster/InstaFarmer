@@ -163,6 +163,7 @@ router.get('/', async function(req, res, next) {
     let c = await instagramPhotos(handles_cusiny,url_cusiny);
 
 console.log(a,b,c);
+res.send('Completed'+a+b+c);
 
 });
 
